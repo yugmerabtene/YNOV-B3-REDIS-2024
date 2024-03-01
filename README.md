@@ -82,7 +82,7 @@
          role VARCHAR(50) NOT NULL
      );
      ```
-2. `request_handler.php` : appelle la fonction `controller.php` et gère les requêtes, dirige le flux de contrôle vers le contrôleur approprié.
+2. `request_handler.php` : appelle la fonction `controller.php` et gère les requêtes, dirige le flux de contrôle vers la route appropriée définie dans la fonction controller().
 
 3. **Fichiers dans le Dossier "functions":**
 
