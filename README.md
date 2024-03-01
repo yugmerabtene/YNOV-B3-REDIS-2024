@@ -18,6 +18,8 @@
       - id (AI)
       - nom
       - prenom
+      - Adresse
+      - Role (Input hidden, défini a 1 pour chaque nouvel inscrit)
       - email
       - password
    2. Inscription obligatoire pour la connexion via email.
@@ -70,6 +72,7 @@
          id INT AUTO_INCREMENT PRIMARY KEY,
          nom VARCHAR(50) NOT NULL,
          prenom VARCHAR(50) NOT NULL,
+         adresse VARCHAR(10) NOT NULL
          adresse_mail VARCHAR(100) NOT NULL,
          mot_de_passe VARCHAR(255) NOT NULL,
          role VARCHAR(50) NOT NULL
