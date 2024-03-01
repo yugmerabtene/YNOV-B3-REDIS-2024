@@ -12,6 +12,7 @@
    1.1 Établissement d'un repository sur GitHub pour le versionnement du projet.
 
 ### 1.4 User Story : Système de Gestion d'Utilisateurs
+```plaintext
    1.1 Champs utilisateur :
       - 1.4.1 id (AI)
       - 1.4.2 nom
@@ -27,7 +28,7 @@
    1.6 Un utilisateur peut voir ses informations sur son profil.
    1.7 Il peut modifier son nom, prénom, email, ou le mot de passe.
    1.8 Possibilité de clôturer ou supprimer son compte.
-
+```
 ### 1.5 Sécurité
    1.1 Intégration de mesures de sécurité contre :
       - 1.5.1 XSS (Cross-Site Scripting)
