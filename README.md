@@ -112,3 +112,9 @@
          
 #### 2.2 Demo
    1. Démonstration de l'application.
+
+
+##FONCTIONNEMENT D'UN CRUD REDIS <=> MYSQL##
+
+![image](https://github.com/yugmerabtene/YNOV-B3-REDIS-2024/assets/3670077/5b8a3a48-e269-4f3e-b3fe-0686215ea01d)
+
