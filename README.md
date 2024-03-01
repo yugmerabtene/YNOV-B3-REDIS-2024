@@ -50,6 +50,10 @@
 |-- /functions (dossier des fonctions gérant le backend et la couche de persistance des données)
 |-- requestHandler.php (gère les requêtes, agissant implicitement comme contrôleur de votre application)
 |-- /templates (frontend de l'application, les vues)
+|   |-- home.php
+|   |-- login.php
+|   |-- register.php
+|   |-- profil.php ou dashboard.php
 |   |-- parts
 |       |-- header.php
 |       |-- footer.php
