@@ -13,7 +13,7 @@
 #### 1.3 Création du Repo GitHub :
    1. Établissement d'un repository sur GitHub pour le versionnement du projet.
 
-#### 1.4 User Story : Système de Gestion d'Utilisateurs
+#### 1.4 User Story/UseCase Textuel : Système de Gestion d'Utilisateurs
    1. Champs utilisateur :
       - id (AI)
       - nom
