@@ -108,6 +108,7 @@
             - Use Case
             - Diagramme d'Activité
             - Diagramme de Classe (si orienté objet)
+            - ERD ou MPD de votre base de donnée MySql
          - **Diagramme de flux, du fonctionnement du système :**
             - ![image](https://github.com/yugmerabtene/YNOV-B3-REDIS-2024/assets/3670077/552e2f4c-e96d-4ba1-b457-19096c2abda8)
 
