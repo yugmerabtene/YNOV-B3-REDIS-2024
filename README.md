@@ -150,11 +150,11 @@ Dans un contexte de CRUD (Create, Read, Update, Delete), l'utilisation d'un cach
 
 
 =============================================== A TITRE INFORMATIF================================================
-Conception de Projet avec methodologie informatique ( AGILE/SCRUM - ANALYSE ET CONCEPTION UML )
+####Conception de Projet avec methodologie informatique ( AGILE/SCRUM - ANALYSE ET CONCEPTION UML )####
 
-1.1 POC (Proof Of Concept) : Test de faisabilité du projet ou de l'application (peu important)
-1.2 Gestion de projet : Méthodes Scrum/Agile
-1.3 Documentation :
+**1.1 POC (Proof Of Concept) : Test de faisabilité du projet ou de l'application (peu important)**
+**1.2 Gestion de projet : Méthodes Scrum/Agile**
+**1.3 Documentation :**
 1.3.1 Méthode Agile/Scrum SCRUM BOARD
 1.3.3 Diagramme de Gantt
 1.3.4 Use Cases
@@ -168,14 +168,14 @@ Conception de Projet avec methodologie informatique ( AGILE/SCRUM - ANALYSE ET C
 1.3.9 Maquettage
 1.4 Prototypage (facultatif, mais bénéfique)
 
-2.Développement
+**2.Développement:**
 2.1 Versioning (exemples : GitHub, GitLab, etc.)
 2.2 Programmation orientée objet (POO) 
 2.3 Architecture Model-View-Controller (MVC) 
 2.4 Développement en couches / Layered Architecture / Design Patterns
 2.5 Sécurité
 
-3.Phase de Test
+**3.Phase de Test**
 3.1 Test unitaire
 3.2 Tests fonctionnels
 3.3 Tests de non-régression
