@@ -1,6 +1,6 @@
 # YNOV-NOSQL-REDIS
 
-## Projet WebApp - Paradigme Procédural Fonctionnel
+## Projet WebApp - Paradigme Procédural Fonctionnel avec une Base de donnée NoSql
 
 ### 1. Spécification du projet :
 
