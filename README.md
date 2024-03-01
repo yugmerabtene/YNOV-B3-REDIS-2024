@@ -33,6 +33,8 @@
       - XSS (Cross-Site Scripting)
       - Injection SQL
       - CSRF (Cross-Site Request Forgery)
+      - Vérification de la complexité du mot de passe lors de l'inscription
+      - Hashage de mot de passe et un Salt serai un bon point en plus
 
 #### 1.6 Dossiers du Projet sur github
     1. **src/**       
