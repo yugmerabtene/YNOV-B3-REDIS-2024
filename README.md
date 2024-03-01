@@ -146,3 +146,37 @@ Dans un contexte de CRUD (Create, Read, Update, Delete), l'utilisation d'un cach
 5. **Considérations de Sécurité :**
    - Il est crucial de mettre en place des mécanismes de gestion des droits d'accès pour s'assurer que seules les données appropriées sont mises en cache.
    - La sécurité du cache Redis, y compris la gestion des autorisations et la désactivation des fonctionnalités potentiellement dangereuses, doit être configurée de manière appropriée.
+
+
+
+=============================================== A TITRE INFORMATIF================================================
+Conception de Projet avec methodologie informatique ( AGILE/SCRUM - ANALYSE ET CONCEPTION UML )
+
+1.1 POC (Proof Of Concept) : Test de faisabilité du projet ou de l'application (peu important)
+1.2 Gestion de projet : Méthodes Scrum/Agile
+1.3 Documentation :
+1.3.1 Méthode Agile/Scrum SCRUM BOARD
+1.3.3 Diagramme de Gantt
+1.3.4 Use Cases
+1.3.5 Diagrammes de séquence
+1.3.6 Diagrammes d'activité
+1.3.7 Diagrammes de classe ( Programmation orientée objet (POO)  )
+1.3.8 Schémas de base de données :
+1.3.8.1 Modèle Conceptuel de Données (MCD)
+1.3.8.2 Modèle Logique de Données (MLD)
+1.3.8.3 Modèle Physique de Données (MPD)
+1.3.9 Maquettage
+1.4 Prototypage (facultatif, mais bénéfique)
+
+2.Développement
+2.1 Versioning (exemples : GitHub, GitLab, etc.)
+2.2 Programmation orientée objet (POO) 
+2.3 Architecture Model-View-Controller (MVC) 
+2.4 Développement en couches / Layered Architecture / Design Patterns
+2.5 Sécurité
+
+3.Phase de Test
+3.1 Test unitaire
+3.2 Tests fonctionnels
+3.3 Tests de non-régression
+3.4 Tests de sécurité.
