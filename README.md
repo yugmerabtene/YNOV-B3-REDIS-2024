@@ -100,6 +100,7 @@
          - **Diagramme UML :** (à faire avec Draw.io ou autres..)
             - Use Case
             - Diagramme d'Activité d'un utilistauer connecté
+            - Diagramme de séquence
             - Diagramme de Classe (si orienté objet)
             - MPD de votre base de donnée MySql
 
