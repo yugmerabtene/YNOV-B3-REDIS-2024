@@ -22,10 +22,10 @@
       - email
       - password
    2. Inscription obligatoire pour la connexion via email.
-   3. Connexion réussie redirige vers la page profil.
+   3. Connexion réussie redirige vers la page dashboard.
    4. Échec de connexion redirige vers la page de login.
    5. Vérification de l'existence de l'email lors de l'inscription. Enregistrement si non existant, sinon affichage d'un message d'erreur.
-   6. Un utilisateur peut voir ses informations sur son profil.
+   6. Un utilisateur peut voir ses informations sur son dashboard.
    7. Il peut modifier son nom, prénom, email.
    8. Possibilité de clôturer ou supprimer son compte.
 
