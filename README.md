@@ -1,6 +1,6 @@
 # YNOV-NOSQL-REDIS
 
-## Projet WebApp - Paradigme Procédural Fonctionnel avec une Base de donnée NoSql
+## Projet WebApp - Paradigme Procédural Fonctionnel avec une Base de donnée NoSql <=> MySql
 
 ### 1. Spécification du projet :
 
@@ -19,7 +19,6 @@
       - nom
       - prenom
       - Adresse
-      - Role (Input hidden, valeur défini à 2 pour chaque nouvel inscrit)
       - email
       - password
    2. Inscription obligatoire pour la connexion via email.
@@ -27,7 +26,7 @@
    4. Échec de connexion redirige vers la page de login.
    5. Vérification de l'existence de l'email lors de l'inscription. Enregistrement si non existant, sinon affichage d'un message d'erreur.
    6. Un utilisateur peut voir ses informations sur son profil.
-   7. Il peut modifier son nom, prénom, email, ou le mot de passe.
+   7. Il peut modifier son nom, prénom, email.
    8. Possibilité de clôturer ou supprimer son compte.
 
 #### 1.5 Sécurité
@@ -39,24 +38,22 @@
       - Hashage de mot de passe et un Salt serait un bon point en plus
 
 #### 1.6 Dossiers du Projet sur GitHub
-    1. **src/**       
-      - Code source de l'application.
-    2. **tests/**
+    1. **src/**  
+       - Code source de l'application.
+    2. **readme.md**
+       - Documentation
+    3. **tests/**
       - Tests unitaires et fonctionnels, y compris les tests de sécurité avec PHPUnit.
 
 **Organisation et structure des dossiers:**
 ```plaintext
 |-- index.php (point d'entrée de l'application)
-|-- /functions (dossier des fonctions gérant le backend et la couche de persistance des données)
-|-- requestHandler.php (gère les requêtes, agissant implicitement comme contrôleur de votre application)
-|-- /templates (frontend de l'application, les vues)
-|   |-- home.php
-|   |-- login.php
-|   |-- register.php
-|   |-- profil.php ou dashboard.php
-|   |-- parts
-|       |-- header.php
-|       |-- footer.php
+|-- controller.php (gère les requêtes, agissant comme contrôleur de votre application)
+|-- login.php
+|-- register.php
+|-- dashboard.php
+|-- header.php
+|-- footer.php
 |-- assets
 |   |-- css
 |       |-- style.css
@@ -79,18 +76,12 @@
          adresse VARCHAR(10) NOT NULL
          email VARCHAR(100) NOT NULL,
          password VARCHAR(255) NOT NULL,
-         role VARCHAR(50) NOT NULL
      );
      ```
-2. `request_handler.php` : appelle la fonction `controller.php` et gère les requêtes, dirige le flux de contrôle vers la route appropriée définie dans la fonction controller().
-
-3. **Fichiers dans le Dossier "functions":**
-
-   a. `functions/controller.php` : fonction agissant en tant que routeur/contrôleur.
+2. `controller.php` : gère les requêtes, dirige le flux de contrôle vers la route appropriée définie dans la fonction controller().
    
-   b. `functions/model.php` : Gestion de la persistance des données, interactions avec la base de données.
+3. `functions/model.php` : Gestion de la persistance des données, interactions avec la base de données.
 
-   c. `templates` : Partie front (vues) de votre projet.
 
 ### 2. Rendu du projet
 
@@ -106,18 +97,25 @@
       - **Diagrammes**
          - **Diagramme UML :** (à faire avec Draw.io ou autres..)
             - Use Case
-            - Diagramme d'Activité
+            - Diagramme d'Activité d'un utilistauer connecté
             - Diagramme de Classe (si orienté objet)
-            - ERD ou MPD de votre base de donnée MySql
+            - MPD de votre base de donnée MySql
          - **Diagramme de flux, du fonctionnement du système :**
             - ![image](https://github.com/yugmerabtene/YNOV-B3-REDIS-2024/assets/3670077/552e2f4c-e96d-4ba1-b457-19096c2abda8)
 
-         - **Exemples de diagrammes :**
-            - [Liens vers les exemples](https://github.com/yugmerabtene/ESIEA-FISE-WEB-2024/blob/main/Module-04/TP-01.md)
+         1. **Documentation :**<br>
+            a. [Diagramme UseCase](https://www.lucidchart.com/pages/uml-use-case-diagram)<br>
+            b. [Diagramme d'activité](https://www.lucidchart.com/pages/fr/diagramme-dactivite-uml)<br>
+            c. [Diagramme de flux (Système)](https://www.lucidchart.com/pages/fr/diagramme-de-flux-de-donnees)<br>
+            d. [Diagramme de séquence](https://www.lucidchart.com/pages/fr/diagramme-de-sequence-uml)<br>
+            e. [Diagramme MPD](https://www.edrawsoft.com/fr/what-is-entity-relationship-diagram-erd.html)<br>
 
          
 #### 2.2 Demo
    1. Démonstration de l'application.
+
+
+**RETOUR SUR LE FONCTIONNEMENT D'UN CRUD REDIS**
 
 ## FONCTIONNEMENT D'UN CRUD REDIS <=> MYSQL ##
 
