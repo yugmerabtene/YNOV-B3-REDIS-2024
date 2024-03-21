@@ -50,6 +50,7 @@
 ```plaintext
 |-- index.php (point d'entrée de l'application)
 |-- controller.php (gère les requêtes, agissant comme contrôleur de votre application)
+|-- model.php (Communique avec redis et persiste les données en BDD Mysql)
 |-- login.php
 |-- register.php
 |-- dashboard.php
