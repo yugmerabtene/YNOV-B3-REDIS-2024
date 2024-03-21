@@ -81,7 +81,7 @@
      ```
 2. `controller.php` : gère les requêtes, dirige le flux de contrôle vers la route appropriée définie dans la fonction controller().
    
-3. `functions/model.php` : Gestion de la persistance des données, interactions avec la base de données.
+3. `model.php` : Gestion de la persistance des données, interactions avec la base de données.
 
 
 ### 2. Rendu du projet
