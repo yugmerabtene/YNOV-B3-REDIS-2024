@@ -18,7 +18,7 @@
       - id (AI)
       - nom
       - prenom
-      - Adresse
+      - adresse
       - email
       - password
    2. Inscription obligatoire pour la connexion via email.
