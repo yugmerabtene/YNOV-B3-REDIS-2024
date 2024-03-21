@@ -101,8 +101,6 @@
             - Diagramme d'Activité d'un utilistauer connecté
             - Diagramme de Classe (si orienté objet)
             - MPD de votre base de donnée MySql
-         - **Diagramme de flux, du fonctionnement du système :**
-            - ![image](https://github.com/yugmerabtene/YNOV-B3-REDIS-2024/assets/3670077/552e2f4c-e96d-4ba1-b457-19096c2abda8)
 
          1. **Documentation :**<br>
             a. [Diagramme UseCase](https://www.lucidchart.com/pages/uml-use-case-diagram)<br>
@@ -145,48 +143,4 @@ Dans un contexte de CRUD (Create, Read, Update, Delete), l'utilisation d'un cach
 5. **Considérations de Sécurité :**
    - Il est crucial de mettre en place des mécanismes de gestion des droits d'accès pour s'assurer que seules les données appropriées sont mises en cache.
    - La sécurité du cache Redis, y compris la gestion des autorisations et la désactivation des fonctionnalités potentiellement dangereuses, doit être configurée de manière appropriée.
-
-
-
-Bien sûr, voici une restructuration du contenu :
-
----
-
-**A TITRE INFORMATIF**
-
-### Conception de Projet avec Méthodologie Informatique (AGILE/SCRUM - ANALYSE ET CONCEPTION UML)
-
-#### 1. POC (Proof Of Concept)
-   - Test de faisabilité du projet ou de l'application (peu important)
-
-#### 2. Gestion de Projet
-   - Méthodes Scrum/Agile
-
-#### 3. Documentation
-   - 3.1 Méthode Agile/Scrum SCRUM BOARD
-   - 3.2 Diagramme de Gantt
-   - 3.3 Use Cases
-   - 3.4 Diagrammes de Séquence
-   - 3.5 Diagrammes d'Activité
-   - 3.6 Diagrammes de Classe (Programmation Orientée Objet - POO)
-   - 3.7 Schémas de Base de Données :
-     - 3.7.1 Modèle Conceptuel de Données (MCD)
-     - 3.7.2 Modèle Logique de Données (MLD)
-     - 3.7.3 Modèle Physique de Données (MPD)
-   - 3.8 Maquettage
-   - 3.9 Prototypage (facultatif, mais bénéfique)
-
-#### 4. Développement
-   - 4.1 Versioning (exemples : GitHub, GitLab, etc.)
-   - 4.2 Programmation Orientée Objet (POO)
-   - 4.3 Architecture Model-View-Controller (MVC)
-   - 4.4 Développement en Couches / Layered Architecture / Design Patterns
-   - 4.5 Sécurité
-
-#### 5. Phase de Test ( pendant et tout au long du développement )
-   - 5.1 Test Unitaire 
-   - 5.2 Tests Fonctionnels
-   - 5.3 Tests de Non-Régression
-   - 5.4 Tests de Sécurité
-
 
