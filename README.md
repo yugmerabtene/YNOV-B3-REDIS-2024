@@ -32,10 +32,11 @@
 #### 1.5 Sécurité
    1. Intégration de mesures de sécurité contre :
       - XSS (Cross-Site Scripting)
-      - Injection SQL
+      - Injection SQL Try-catch et prepare statements
       - CSRF (Cross-Site Request Forgery)
       - Vérification de la complexité du mot de passe lors de l'inscription
       - Hashage de mot de passe et un Salt serait un bon point en plus
+      - utilisation de regex
 
 #### 1.6 Dossiers du Projet sur GitHub
     1. **src/**  
