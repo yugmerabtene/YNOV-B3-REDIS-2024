@@ -144,3 +144,4 @@ Dans un contexte de CRUD (Create, Read, Update, Delete), l'utilisation d'un cach
    - Il est crucial de mettre en place des mécanismes de gestion des droits d'accès pour s'assurer que seules les données appropriées sont mises en cache.
    - La sécurité du cache Redis, y compris la gestion des autorisations et la désactivation des fonctionnalités potentiellement dangereuses, doit être configurée de manière appropriée.
 
+  
